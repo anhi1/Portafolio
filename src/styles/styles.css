@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  background-color: #EAEAEA;
+  
+}
+
+/* formulario */
+
+.form-border{
+  border: 1px solid; 
+  border-color: #ffffff; 
+  border-radius: 13px;
+}
+
+form{
+  background-color: #ffffff;
+}
+
+
+h1 {
+  color: #bb542b;
+}
