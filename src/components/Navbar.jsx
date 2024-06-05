@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="bg-white flex flex-col md:flex-row justify-between py-5 px-10">
       <div className="flex flex-col md:flex-row items-center">
         <Link to="/" className="flex flex-col md:flex-row md:gap-x-4 mb-2">
-          Home
+          <img className="inline-flex items-center" style={{ width: "100px", height: "auto" }} src="/logo.svg"/>
         </Link>
       </div>
 
