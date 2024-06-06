@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar.jsx";
 import "./styles/styles.css"
@@ -9,7 +9,7 @@ function App() {
   return (
         <BrowserRouter>
        
-          <Navbar />
+          <Navbar /><br></br>
           <HomePage/>
           <ListProject/>
           <About/>

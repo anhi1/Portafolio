@@ -2,9 +2,9 @@ import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
-
 const ObjetoUno = () => {
     const mountRef = useRef(null);
+    const rendererRef = useRef(null);
 
     useEffect(() => {
         const currentRef = mountRef.current;
@@ -17,10 +17,11 @@ const ObjetoUno = () => {
         scene.add(camera);
         camera.position.z = 6;
         camera.position.x = 6;
-    
+
         const renderer = new THREE.WebGLRenderer();
         renderer.setSize(width, height);
         currentRef.appendChild(renderer.domElement);
+        rendererRef.current = renderer;
 
         const controls = new OrbitControls(camera, renderer.domElement)
         controls.maxPolarAngle= Math.PI;
@@ -54,13 +55,22 @@ const ObjetoUno = () => {
         }
         animate();
 
+        const handleResize = () => {
+            const { clientWidth: width, clientHeight: height } = currentRef;
+            camera.aspect = width / height;
+            camera.updateProjectionMatrix();
+            renderer.setSize(width, height);
+        };
+
+        window.addEventListener('resize', handleResize);
+
         // Clean up the scene (para que no aparezcan varios canvas)
         return () => {
+            window.removeEventListener('resize', handleResize);
             currentRef.removeChild(renderer.domElement);
         }
 
     }, []);
-    
 
     return (
         <div ref={mountRef} style={{ width: '100%', height: '100vh' }}>
@@ -68,6 +78,5 @@ const ObjetoUno = () => {
         </div>
     );
 }
-
 
 export default ObjetoUno;
