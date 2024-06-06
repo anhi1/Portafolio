@@ -29,7 +29,7 @@ const callouts = [
       description: 'En este proyecto, que está en desarrollo, se ha instalado json-server y otras APIs que aún no son visibles por el momento.',
       imageSrc: '/img/libro.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: 'https://libro-f8p4v3705-anhi1.vercel.app/',
+      href: 'https://libro-omega.vercel.app/',
     },
     {
       name: 'EcoKids',
@@ -45,7 +45,7 @@ const callouts = [
       description: 'Proyecto grupal, el objetivo es desarrollar más enlaces que te lleven a otras páginas que informen sobre Alvearium.',
       imageSrc: '/img/alvea.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: 'https://www.behance.net/portfolio/editor?project_id=200361127',
+      href: '#',
     },
   ]
   
