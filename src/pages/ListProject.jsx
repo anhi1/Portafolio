@@ -35,7 +35,7 @@ const callouts = [
       name: 'EcoKids',
       stack: 'A-frame, Html, Javascript, Illustrator.',
       description: 'Página en desarrollo dirigida a niños. El objetivo de este proyecto es concienciar sobre el cuidado de nuestros mares. El juego consiste en eliminar plásticos con el puntero. Los modelos 3D son de Sketchfab',
-      imageSrc: '/img/Plastic.png',
+      imageSrc: '/img/plastic.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: 'https://www.behance.net/portfolio/editor?project_id=200361127',
     },
