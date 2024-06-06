@@ -8,13 +8,12 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
         <BrowserRouter>
-       
-          <Navbar /><br></br>
+          <Navbar />
           <HomePage/>
           <ListProject/>
           <About/>
           <Footer/>
-          
+         
         </BrowserRouter>
  
   );

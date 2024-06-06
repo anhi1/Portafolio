@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-white flex flex-col md:flex-row justify-between py-5 px-10">
-      <div className="flex flex-col md:flex-row items-center">
-        <Link to="/" className="flex flex-col md:flex-row md:gap-x-4 mb-2">
-          <img className="inline-flex items-center" style={{ width: "100px", height: "auto" }} src="/logo.svg"/>
-        </Link>
+    <nav className="bg-white flex flex-col md:flex-row justify-content py-7 px-10">
+  <div className="flex flex-col md:flex-row items-center w-full">
+    <Link to="/" className="flex items-center justify-center">
+      <img className="inline-flex" style={{ width: "100px", height: "auto" }} src="/logo.svg" />
+    </Link>
       </div>
 
       {/* <ul className="flex flex-col md:flex-row md:space-x-4 items-center">

@@ -38,7 +38,15 @@ const callouts = [
       imageSrc: '/public/img/Plastic.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: 'https://www.behance.net/portfolio/editor?project_id=200361127',
-    }
+    },
+    {
+      name: 'Alevarium',
+      stack: 'MERN, three.js, A-frame, Illustrator.',
+      description: 'Proyecto grupal, el objetivo es desarrollar más enlaces que te lleven a otras páginas que informen sobre Alvearium.',
+      imageSrc: '/public/img/alvea.png',
+      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+      href: 'https://www.behance.net/portfolio/editor?project_id=200361127',
+    },
   ]
   
   export default function ListProject() {
