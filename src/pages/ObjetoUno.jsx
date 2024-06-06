@@ -73,7 +73,7 @@ const ObjetoUno = () => {
     }, []);
 
     return (
-        <div ref={mountRef} style={{ width: '100%', height: '100vh' }}>
+        <div ref={mountRef} style={{ width: '100%', height: '90vh' }}>
            
         </div>
     );
