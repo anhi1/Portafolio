@@ -15,13 +15,7 @@ export default function About() {
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-regular leading-8 text-gray-900 sm:text-2xl sm:leading-9">
             <p>
-            <span className="font-bold text-8xl">C</span>omo diseñadora gráfica, cuento con una sólida carrera en arte y
-              diseño. Actualmente, me especializo en desarrollo web fullstack.
-              Destaco por mi dedicación constante en cada proyecto que emprendo,
-              y mi experiencia previa como diseñadora de publicaciones. Soy
-              reconocida por mi organización y mi compromiso con la excelencia
-              en cada aspecto de mi trabajo. Estoy totalmente disponible para
-              nuevas oportunidades y desafíos a tiempo completo.
+            <span className="font-bold text-8xl">C</span>omo diseñadora gráfica, estoy ampliando mis habilidades hacia el desarrollo web fullstack para crear páginas interactivas. Mi objetivo es fusionar el diseño con las tecnologías emergentes. Me caracterizo por mi dedicación constante en cada proyecto que emprendo, respaldada por mi experiencia previa como diseñadora de publicaciones. Estoy totalmente disponible para nuevas oportunidades y desafíos a tiempo completo.
             </p>
           </blockquote>
           <figcaption className="mt-10">
@@ -31,7 +25,7 @@ export default function About() {
               alt=""
             /> */}
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-gray-900">Annie</div>
+              {/* <div className="font-semibold text-gray-900">Annie</div> */}
               <svg
                 viewBox="0 0 2 2"
                 width={3}
@@ -41,7 +35,7 @@ export default function About() {
               >
                 <circle cx={1} cy={1} r={1} />
               </svg>
-              <div className="text-gray-600">Diseñadora web</div>
+              {/* <div className="text-gray-600">Diseñadora web</div> */}
             </div>
           </figcaption>
         </figure>

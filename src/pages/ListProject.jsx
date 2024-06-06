@@ -1,39 +1,49 @@
 const callouts = [
     {
       name: 'Feellike, tipo Airbnb',
-      stack: 'React, Angular, Angular material, Bootstrap, Mysql, Nest',
-      description: 'Las imágenes son de airbnb y pinterest',
-      imageSrc: '/public/angula/angular.png',
+      stack: 'React, Angular, Angular material, Bootstrap, Mysql, Nest.',
+      description: 'Las imágenes son de airbnb y pinterest.',
+      imageSrc: '/public/img/angular.png',
+      imageAlt: 'feellike',
+      href: '#',
+    },
+    {
+      name: 'GoodRoot, página en desarrollo para la visualización y venta de plantas.',
+      description: 'Incluye una pequeña descripción a través de un modal, un buscador y una API del tiempo. Las imágenes provienen de Pinterest.',
+      stack: 'Javascript, Html, Bootstrap.',
+      imageSrc: '/public/img/plantas.png',
+      imageAlt: 'plantas',
+      href: 'https://goodroot.vercel.app/',
+    },
+    {
+      name: 'Oso polar',
+      description: 'Infografía de osos, con un enfoque en el calentamiento global. Los modelos 3D son de Sketchfab.',
+      stack: 'A-frame (framework), Javascript.',
+      imageSrc: '/public/img/oso.png',
+      imageAlt: 'plantas',
+      href: 'https://inmersiva.vercel.app/',
+    },
+    {
+      name: 'Book, muestra una descripción de cada libro y autor.',
+      stack: 'React(Next), Bootstrap, json-server',
+      description: 'En este proyecto, que está en desarrollo, se ha instalado json-server y otras APIs que aún no son visibles por el momento.',
+      imageSrc: '/public/img/libro.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: '#',
+      href: 'https://libro-f8p4v3705-anhi1.vercel.app/',
     },
     {
-      name: 'Self-Improvement',
-      description: 'Journals and note-taking',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
-      imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-      href: '#',
-    },
-    {
-      name: 'Travel',
-      description: 'Daily commute essentials',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-      imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-      href: '#',
-    },
-    {
-      name: 'Tipo Airbnb',
-      stack: 'react, Mysql, angular, angular material, boostrap',
-      description: 'Las imagenes son de airbnb',
-      imageSrc: '/public/angula/angular.png',
+      name: 'EcoKids',
+      stack: 'A-frame, Html, Javascript, Illustrator.',
+      description: 'Página en desarrollo dirigida a niños. El objetivo de este proyecto es concienciar sobre el cuidado de nuestros mares. El juego consiste en eliminar plásticos con el puntero. Los modelos 3D son de Sketchfab',
+      imageSrc: '/public/img/Plastic.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: '#',
+      href: 'https://www.behance.net/portfolio/editor?project_id=200361127',
     }
   ]
   
   export default function ListProject() {
     return (
-      <div className="bg-gray-100">
+      <div className="bg-gray-200">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
             <h2 className="text-2xl font-bold text-gray-900">Proyectos</h2>
@@ -48,14 +58,14 @@ const callouts = [
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
+                  <h3 className="mt-6 text-base font-semibold">
                     <a href={callout.href}>
                       <span className="absolute inset-0" />
                       {callout.name}
                     </a>
                   </h3>
-                  <p className="text-base font-semibold text-gray-900">{callout.description}</p>
-                  {callout.stack && <h4 className="text-base font-semibold text-gray-500">Stack: {callout.stack}</h4>}
+                  <h4 className="text-sm font-semibold text-gray-400">{callout.description}</h4>
+                  {callout.stack && <h4 className="text-sm font-regular text-gray-900">Stack: {callout.stack}</h4>}
                 </div>
               ))}
             </div>

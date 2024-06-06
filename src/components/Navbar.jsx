@@ -9,15 +9,15 @@ function Navbar() {
         </Link>
       </div>
 
-      <ul className="flex flex-col md:flex-row md:space-x-4 items-center">
+      {/* <ul className="flex flex-col md:flex-row md:space-x-4 items-center">
         <li className="inline-flex items-center gap-x-2 text-sm font-medium rounded-lg mb-2">
           <Link to="/contact">Contacto</Link>
         </li>
-        {/* <br></br> */}
+        
         <li className="inline-flex items-center gap-x-2 text-sm font-medium rounded-lg mb-2">
           <Link to="/about">Sobre mí</Link>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 }
