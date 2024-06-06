@@ -25,7 +25,7 @@ const callouts = [
     },
     {
       name: 'Book, muestra una descripción de cada libro y autor.',
-      stack: 'React(Next), Bootstrap, json-server',
+      stack: 'React(Next), Bootstrap, json-server.',
       description: 'En este proyecto, que está en desarrollo, se ha instalado json-server y otras APIs que aún no son visibles por el momento.',
       imageSrc: '/public/img/libro.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
