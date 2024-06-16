@@ -21,7 +21,7 @@ const callouts = [
       stack: 'A-frame (framework), Javascript.',
       imageSrc: '/img/oso.png',
       imageAlt: 'plantas',
-      href: 'https://inmersiva.vercel.app/',
+      href: 'https://effortless-capybara-d94286.netlify.app/',
     },
     {
       name: 'Book, muestra una descripción de cada libro y autor.',
