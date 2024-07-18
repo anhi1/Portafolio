@@ -28,7 +28,7 @@ const callouts = [
       stack: 'React(Next), Bootstrap, json-server.',
       description: 'En este proyecto, que está en desarrollo, se ha instalado json-server y otras APIs que aún no son visibles por el momento.',
       imageSrc: '/img/libro.png',
-      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+      imageAlt: 'book',
       href: 'https://libro-omega.vercel.app/',
     },
     {
@@ -36,7 +36,7 @@ const callouts = [
       stack: 'A-frame, Html, Javascript, Illustrator.',
       description: 'Página en desarrollo dirigida a niños. El objetivo de este proyecto es concienciar sobre el cuidado de nuestros mares. El juego consiste en eliminar plásticos con el puntero. Los modelos 3D son de Sketchfab',
       imageSrc: '/img/plastic.png',
-      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+      imageAlt: 'mar',
       href: 'https://www.behance.net/portfolio/editor?project_id=200361127',
     },
     {
@@ -44,9 +44,17 @@ const callouts = [
       stack: 'MERN, three.js, A-frame, Illustrator.',
       description: 'Proyecto grupal, el objetivo es desarrollar más enlaces que te lleven a otras páginas que informen sobre Alvearium.',
       imageSrc: '/img/alvea.png',
-      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+      imageAlt: 'inmersiva',
       href: '#',
     },
+    {
+      name: 'Sagrado Corazón de Jesús de Madrid',
+      stack: 'wordpress, php, astra, elementor, html, css, figma',
+      description: 'Página web hecha en wordpress',
+      imageSrc: '/img/parroquia.png',
+      imageAlt: 'parroquia',
+      href: 'https://sagradocorazondejesusdemadrid.com/',
+    }
   ]
   
   export default function ListProject() {
