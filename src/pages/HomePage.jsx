@@ -17,7 +17,8 @@ export default function HomePage() {
         </button>
       </div>
 
-      <ObjetoUno />
+     <ObjetoUno />
+      
       
     </>
   );

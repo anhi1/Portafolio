@@ -7,17 +7,18 @@ function Navbar() {
     <Link to="/" className="flex items-center justify-center">
       <img className="inline-flex" style={{ width: "100px", height: "auto" }} src="/logo.svg" />
     </Link>
+   
       </div>
 
-      {/* <ul className="flex flex-col md:flex-row md:space-x-4 items-center">
+      <ul className="flex flex-col md:flex-row md:space-x-4 items-center">
         <li className="inline-flex items-center gap-x-2 text-sm font-medium rounded-lg mb-2">
-          <Link to="/contact">Contacto</Link>
+          <Link to="/perro">Test</Link>
         </li>
         
-        <li className="inline-flex items-center gap-x-2 text-sm font-medium rounded-lg mb-2">
+        {/* <li className="inline-flex items-center gap-x-2 text-sm font-medium rounded-lg mb-2">
           <Link to="/about">Sobre mí</Link>
-        </li>
-      </ul> */}
+        </li> */}
+      </ul>
     </nav>
   );
 }

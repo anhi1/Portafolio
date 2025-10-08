@@ -15,7 +15,9 @@ export default function About() {
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-regular leading-8 text-gray-900 sm:text-2xl sm:leading-9">
             <p>
-            <span className="font-bold text-8xl">C</span>omo diseñadora gráfica, estoy ampliando mis habilidades hacia el desarrollo web fullstack para crear páginas interactivas. Mi objetivo es fusionar el diseño con las tecnologías emergentes. Me caracterizo por mi dedicación constante en cada proyecto que emprendo, respaldada por mi experiencia previa como diseñadora de publicaciones. Estoy totalmente disponible para nuevas oportunidades y desafíos a tiempo completo.
+            <span className="font-bold text-8xl">C</span>omo diseñadora gráfica, estoy ampliando mis habilidades hacia el diseño web y la experiencia de usuario (UX), con el objetivo de crear páginas interactivas, accesibles y centradas en las personas. Me caracterizo por mi dedicación y compromiso en cada proyecto que emprendo, respaldada por mi experiencia previa en el diseño de publicaciones.
+
+Actualmente, estoy disponible para asumir nuevos desafíos y oportunidades profesionales a tiempo completo.
             </p>
           </blockquote>
           <figcaption className="mt-10">
